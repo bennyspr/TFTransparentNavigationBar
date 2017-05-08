@@ -1,10 +1,5 @@
 # TFTransparentNavigationBar
 
-[![CI Status](http://img.shields.io/travis/Ales Kocur/TFTransparentNavigationBar.svg?style=flat)](https://travis-ci.org/Ales Kocur/TFTransparentNavigationBar)
-[![Version](https://img.shields.io/cocoapods/v/TFTransparentNavigationBar.svg?style=flat)](http://cocoapods.org/pods/TFTransparentNavigationBar)
-[![License](https://img.shields.io/cocoapods/l/TFTransparentNavigationBar.svg?style=flat)](http://cocoapods.org/pods/TFTransparentNavigationBar)
-[![Platform](https://img.shields.io/cocoapods/p/TFTransparentNavigationBar.svg?style=flat)](http://cocoapods.org/pods/TFTransparentNavigationBar)
-
 ![preview](https://github.com/thefuntasty/TFTransparentNavigationBar/blob/master/Example/TFTransparentNavigationBar/preview.gif)
 
 ## Usage
@@ -13,12 +8,8 @@ In order to make transparent navigation bar you need set your navigation control
 
 ## Requirements
 
-iOS 8 and later, Swift 2.0. No Apple-private API used.
-
-## Known bugs
-
-- ~~Navigation bar keeps title during pop transition FIXED (but still problem with interactive transition)~~
-- ~~First transition to controller with transparent navbar moves with fromView frame~~
+iOS 8 and later. No Apple-private API used.
+For Swift 2.3 use branch swift2.3
 
 ## Installation
 
@@ -26,12 +17,8 @@ TFTransparentNavigationBar is available through [CocoaPods](http://cocoapods.org
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TFTransparentNavigationBar"
+pod 'TFTransparentNavigationBar', :git => "https://github.com/bennyspr/TFTransparentNavigationBar.git", :branch => 'swift2.3'
 ```
-
-## Author
-
-Ales Kocur, ales@thefuntasty.com
 
 ## License
 
