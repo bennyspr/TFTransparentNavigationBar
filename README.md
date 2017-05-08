@@ -8,13 +8,14 @@ In order to make transparent navigation bar you need set your navigation control
 
 ## Requirements
 
-iOS 8 and later. No Apple-private API used.
+iOS 8 and later. 
+No Apple-private API used.
 For Swift 2.3 use branch swift2.3
 
 ## Installation
 
-TFTransparentNavigationBar is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+TFTransparentNavigationBar is available through [CocoaPods](http://cocoapods.org). 
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'TFTransparentNavigationBar', :git => "https://github.com/bennyspr/TFTransparentNavigationBar.git", :branch => 'swift2.3'
