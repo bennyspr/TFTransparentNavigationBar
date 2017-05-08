@@ -9,27 +9,27 @@
 import UIKit
 
 enum Direction {
-    case Top, Bottom, Left, Right
+  case Top, Bottom, Left, Right
 }
 
 extension CGRect {
-    func additiveRect(value: CGFloat, direction: Direction) -> CGRect {
-        
-        var rect = self
-        
-        switch direction {
-        case .Top:
-            rect.origin.y -= value
-            rect.size.height += value
-        case .Bottom:
-            rect.size.height += value
-        case .Left:
-            rect.origin.x -= value
-            rect.size.width += value
-        case .Right:
-            rect.size.width += value
-        }
-        
-        return rect
+  func additiveRect(value: CGFloat, direction: Direction) -> CGRect {
+    
+    var rect = self
+    
+    switch direction {
+    case .Top:
+      rect.origin.y -= value
+      rect.size.height += value
+    case .Bottom:
+      rect.size.height += value
+    case .Left:
+      rect.origin.x -= value
+      rect.size.width += value
+    case .Right:
+      rect.size.width += value
     }
+    
+    return rect
+  }
 }
